@@ -1,0 +1,8 @@
+prefix=/home/rosnoetic/ZQ_Robot_Model/install
+
+Name: ZQ_urdf_rviz
+Description: Description of ZQ_urdf_rviz
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

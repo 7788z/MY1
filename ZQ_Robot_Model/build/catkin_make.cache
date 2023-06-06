@@ -1,0 +1,2 @@
+ZQ_robot_navigation:ZQ_urdf_gazebo:ZQ_urdf_rviz:arbotix_ros/arbotix:arbotix_ros/arbotix_controllers:arbotix_ros/arbotix_firmware:arbotix_ros/arbotix_msgs:arbotix_ros/arbotix_python:arbotix_ros/arbotix_sensors
+-DCATKIN_DEVEL_PREFIX=/home/rosnoetic/ZQ_Robot_Model/devel -DCMAKE_INSTALL_PREFIX=/home/rosnoetic/ZQ_Robot_Model/install -G Unix Makefiles

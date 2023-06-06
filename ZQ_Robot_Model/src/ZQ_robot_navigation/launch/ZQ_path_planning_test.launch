@@ -1,0 +1,16 @@
+<launch>
+    <!-- 启动地图服务 -->
+    <include file="$(find ZQ_robot_navigation)/launch/ZQ_map_server.launch" />
+
+    <!-- 启动AMCL节点 -->
+    <include file="$(find ZQ_robot_navigation)/launch/ZQ_location.launch" />
+
+    <!-- 运行move_base节点 -->
+    <include file="$(find ZQ_robot_navigation)/launch/ZQ_path_planning.launch" />
+    
+    <!-- 运行rviz -->
+    <node pkg="joint_state_publisher" name="joint_state_publisher" type="joint_state_publisher" />
+    <node pkg="robot_state_publisher" name="robot_state_publisher" type="robot_state_publisher" />
+    <node pkg="rviz" type="rviz" name="rviz" />
+
+</launch>
